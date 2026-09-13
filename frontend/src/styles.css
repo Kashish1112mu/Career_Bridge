@@ -1,0 +1,21 @@
+body {
+  background-color: #f6f7fb;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.job-card {
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.job-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.status-badge-Applied { background-color: #6c757d; }
+.status-badge-Shortlisted { background-color: #0d6efd; }
+.status-badge-Selected { background-color: #198754; }
+.status-badge-Rejected { background-color: #dc3545; }
