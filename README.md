@@ -48,7 +48,7 @@ cp .env.example .env
 **Option A — quick demo with SQLite (no MySQL install needed):**
 Open `.env` and set `USE_SQLITE=true`.
 
-**Option B — real MySQL (matches the resume exactly):**
+**Option B — **Option B — MySQL:**
 1. Install MySQL (or use XAMPP/WAMP) and create a database:
    ```sql
    CREATE DATABASE careerbridge;
@@ -93,5 +93,3 @@ nothing special — it just calls `http://localhost:5000/api/...` directly
 - **MySQL (database)** — accessed through SQLAlchemy ORM, so the same
   model/query code works against MySQL or SQLite depending on `.env`.
 
-See `INTERVIEW_GUIDE.md` for how to talk through this project in an
-interview, including how each resume bullet maps to actual code.
