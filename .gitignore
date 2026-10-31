@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python / Flask
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+*.sqlite3
+instance/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
